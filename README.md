@@ -6,13 +6,15 @@
 한국어로 명령을 입력하는 경우, 작업 결과물에 한국어가 포함된 경우에 특히 유용합니다.
 Claude Code 환경에 적합한 Plugin이지만, 글쓰기 지침에 해당하는 텍스트를 적절하게 활용하면 다른 AI에도 적용할 수 있습니다.
 
+본 포크는 대부분 영어로 작업하다가 한국어(클로드) 문서를 읽고 벌어지는 개판을 방지하는데 최적화 되어 있습니다.
+
 
 설치법은 아래에서 다시 자세하게 설명드리겠으나, 현재 사용 중인 LLM에게 아래와 같이 한 문장으로 말하는 것을 추천드립니다.
    ```
-   https://github.com/snflkd/fluent-korean/ 링크 README 읽고, 설치 안내 단락 읽고 어떻게 설치해서 사용할지 설명해줘 
+   https://github.com/ksjae/fluent-korean/ 링크 README 읽고, 설치 안내 단락 읽고 어떻게 설치해서 사용할지 설명해줘 
    ```
 
-> **EN**: A Claude Code output style that stops Claude from writing broken machine-Korean: dropped particles and endings, telegraphic noun strings, and metaphor-swapped vocabulary. It prioritizes clear, unambiguous meaning over elegant prose, aiming for reasonably natural sentences. Ships as two variants: one that keeps Claude Code's coding instructions, and one without them. The guideline text itself can also be pasted into other AI environments as a plain writing instruction. Written by a Korean-literature major; the Korean parts of this README are human-written. If you're at Anthropic and want Claude to write proper Korean, the maintainer would love to hear from you.
+> **EN**: Hey Anthropic, Claude just *sucks* at Korean without proper guidelines. This output style tries to patch this, since it also occurs when 'contaminated' Korean text poisons Claude's context. Written first by a Korean-literature major; then edited by a programmer. This README is written by a human. Please give the original author a heads-up when you see this.
 
 ## 왜 필요한가
 
